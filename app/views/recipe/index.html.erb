@@ -1,0 +1,20 @@
+<%= stylesheet_link_tag "https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" %>
+<nav class="font-sans bg-black text-white flex flex-col text-center sm:flex-row sm:text-left sm:justify-between py-4 px-6 shadow sm:items-baseline w-full">
+  <div class="mb-2 sm:mb-0 text-2xl text-grey-darkest">
+      Recipe Finder
+  </div>
+  <div>
+    <a href="/one" class="text-lg no-underline text-grey-darkest hover:text-blue-dark ml-2">Home</a>
+  </div>
+</nav>
+
+<div class="w-10/12 h-10 pl-3 m-5 pr-2 bg-white border rounded-full flex items-center">
+  <input type="search" name="search" id="search" placeholder="Search"
+         class="appearance-none w-full outline-none focus:outline-none active:outline-none"/>
+  <button type="submit" class="ml-1 outline-none focus:outline-none active:outline-none">
+    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+         viewBox="0 0 24 24" class="w-6 h-6">
+      <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+    </svg>
+  </button>
+</div>
